@@ -1,0 +1,18 @@
+.dashboard-simple-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 2rem;
+  text-align: center;
+  background: transparent;
+}
+
+.dashboard-simple-page h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-main, white);
+  background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
